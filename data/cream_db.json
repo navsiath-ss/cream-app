@@ -1,0 +1,474 @@
+{
+  "users": [
+    {
+      "id": "user_client_demo",
+      "email": "alex.morgan@apexbrand.co",
+      "name": "Alex Morgan",
+      "role": "client",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "is_digilocker_verified": true,
+      "digilocker_aadhaar_ref": "DL_REF_SHA256_9c82e17bf923a",
+      "digilocker_verified_at": "2026-09-15T10:00:00Z",
+      "created_at": "2026-09-01T08:30:00Z"
+    },
+    {
+      "id": "user_creator_arjun",
+      "email": "arjun.vfx@hyperreal.ai",
+      "name": "Arjun Mehta",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "is_digilocker_verified": true,
+      "digilocker_aadhaar_ref": "DL_REF_SHA256_c2d65ef20b592529",
+      "digilocker_verified_at": "2026-10-10T03:37:05.809Z",
+      "created_at": "2026-08-15T09:12:00Z"
+    },
+    {
+      "id": "user_creator_sophia",
+      "email": "sophia.chen@genmotion.studio",
+      "name": "Sophia Chen",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "is_digilocker_verified": true,
+      "digilocker_aadhaar_ref": "DL_REF_SHA256_b3389a01f5",
+      "digilocker_verified_at": "2026-08-25T11:45:00Z",
+      "created_at": "2026-08-18T10:00:00Z"
+    },
+    {
+      "id": "user_creator_marcus",
+      "email": "marcus.vance@cinemavox.ai",
+      "name": "Marcus Vance",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "is_digilocker_verified": true,
+      "digilocker_aadhaar_ref": "DL_REF_SHA256_77fa33c2e1",
+      "digilocker_verified_at": "2026-09-02T16:10:00Z",
+      "created_at": "2026-08-29T12:00:00Z"
+    },
+    {
+      "id": "user_admin",
+      "email": "admin@cream.market",
+      "name": "CREAM Trust & Safety Council",
+      "role": "admin",
+      "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+      "is_digilocker_verified": true,
+      "digilocker_aadhaar_ref": "DL_REF_SHA256_admin_master",
+      "digilocker_verified_at": "2026-01-01T00:00:00Z",
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "creator_profiles": [
+    {
+      "id": "cp_arjun",
+      "user_id": "user_creator_arjun",
+      "display_name": "Arjun Mehta",
+      "tagline": "Lead AI Cinematographer & ComfyUI Pipeline Architect",
+      "bio": "Specialist in hyperrealistic narrative video commercials, bespoke LoRA style training, and temporal consistency pipelines for global luxury brands.",
+      "tools": [
+        "Runway Gen-2",
+        "Midjourney v6",
+        "ComfyUI",
+        "Flux.1",
+        "ElevenLabs",
+        "Stable Video Diffusion"
+      ],
+      "workflows": [
+        "Custom LoRA Training",
+        "ControlNet Depth Guidance",
+        "AnimateDiff Interpolation",
+        "4K ESRGAN Upscaling"
+      ],
+      "specializations": [
+        "Photorealistic Commercials",
+        "Automotive Cinematics",
+        "Fashion Lookbooks"
+      ],
+      "hourly_rate": 6500,
+      "min_project_budget": 45000,
+      "rating": 4.97,
+      "completed_projects": 39,
+      "verified_badges": [
+        "DigiLocker KYC",
+        "ComfyUI Master",
+        "SynthID Verified",
+        "Tier-1 Agency Approved"
+      ],
+      "portfolio_items": [
+        {
+          "id": "port_1",
+          "title": "Aurora Hypercar 2026 Launch Film",
+          "thumbnail_url": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=80",
+          "media_type": "video",
+          "tools_used": [
+            "Runway Gen-2",
+            "ComfyUI",
+            "Flux.1"
+          ],
+          "workflow_description": "AnimateDiff motion flow with bespoke vehicle texture LoRA and photorealistic reflective lighting passes.",
+          "prompt_snippet": "Cinematic wide angle, hypercar gliding along rain-slicked neon Tokyo highway, volumetric reflections, 8k, anamorphic lens 35mm",
+          "verified_render": true
+        },
+        {
+          "id": "port_2",
+          "title": "Vogue Generative Haute Couture",
+          "thumbnail_url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&auto=format&fit=crop&q=80",
+          "media_type": "video",
+          "tools_used": [
+            "Midjourney v6",
+            "Stable Video Diffusion"
+          ],
+          "workflow_description": "Silk drape simulation via ControlNet edge maps and high-fidelity facial expression retention.",
+          "prompt_snippet": "Avant-garde metallic fabric flowing around ethereal model, high fashion studio lighting, muted pastel grading",
+          "verified_render": true
+        }
+      ],
+      "created_at": "2026-08-15T09:30:00Z"
+    },
+    {
+      "id": "cp_sophia",
+      "user_id": "user_creator_sophia",
+      "display_name": "Sophia Chen",
+      "tagline": "Generative 3D & Anime Art Director",
+      "bio": "Creates stylized 3D commercials, character-driven brand stories, and mixed-media generative visualizer loops for gaming and music studios.",
+      "tools": [
+        "Midjourney v6",
+        "ComfyUI",
+        "Kling AI",
+        "ElevenLabs",
+        "Blender Generative Nodes"
+      ],
+      "workflows": [
+        "Character Consistency Sheets",
+        "IP-Adapter Pose Transfer",
+        "Multi-camera Spatial Loops"
+      ],
+      "specializations": [
+        "Stylized 3D Animation",
+        "Character Worldbuilding",
+        "Music Visualizers"
+      ],
+      "hourly_rate": 5500,
+      "min_project_budget": 35000,
+      "rating": 4.92,
+      "completed_projects": 29,
+      "verified_badges": [
+        "DigiLocker KYC",
+        "Character Consistency Pro",
+        "SynthID Verified"
+      ],
+      "portfolio_items": [
+        {
+          "id": "port_3",
+          "title": "Neo-Tokyo Cyberpunk Brand Anthem",
+          "thumbnail_url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
+          "media_type": "video",
+          "tools_used": [
+            "Kling AI",
+            "Midjourney v6",
+            "ComfyUI"
+          ],
+          "workflow_description": "Keyframe consistency through IP-Adapter face weight tuning and animated depth map sequencing.",
+          "prompt_snippet": "Retro-futuristic anime protagonist traversing holographic skyline, vibrant chromatic aberration, Studio Ghibli meets Akira aesthetic",
+          "verified_render": true
+        }
+      ],
+      "created_at": "2026-08-18T10:15:00Z"
+    },
+    {
+      "id": "cp_marcus",
+      "user_id": "user_creator_marcus",
+      "display_name": "Marcus Vance",
+      "tagline": "Photorealistic Architectural & Product Visualizer",
+      "bio": "Expert in generative industrial product rendering, luxury real estate cinematics, and complex optical lighting simulations with zero hallucination.",
+      "tools": [
+        "Midjourney v6",
+        "Flux.1",
+        "ComfyUI",
+        "Magnific AI",
+        "Runway Gen-2"
+      ],
+      "workflows": [
+        "Exact Scale ControlNet",
+        "Material Texture LoRA",
+        "High-res Inpainting Passes"
+      ],
+      "specializations": [
+        "Architectural Visualizations",
+        "Product Launch Promos",
+        "Tech Hardware Teasers"
+      ],
+      "hourly_rate": 7000,
+      "min_project_budget": 50000,
+      "rating": 4.98,
+      "completed_projects": 42,
+      "verified_badges": [
+        "DigiLocker KYC",
+        "SynthID Verified",
+        "Enterprise Verified"
+      ],
+      "portfolio_items": [
+        {
+          "id": "port_4",
+          "title": "Zenith Spatial Audio Headset Promo",
+          "thumbnail_url": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&auto=format&fit=crop&q=80",
+          "media_type": "video",
+          "tools_used": [
+            "Flux.1",
+            "ComfyUI",
+            "Runway Gen-2"
+          ],
+          "workflow_description": "Titanium and acoustic mesh macro texturing with studio strobe light sweeps.",
+          "prompt_snippet": "Macro commercial studio shot of precision milled dark titanium headphones, studio dark rim light, ultra crisp 8k texture",
+          "verified_render": true
+        }
+      ],
+      "created_at": "2026-08-29T12:30:00Z"
+    }
+  ],
+  "briefs": [
+    {
+      "id": "brief_1791603425839",
+      "client_id": "user_client_demo",
+      "title": "Need a 30s photorealistic commercial...",
+      "content_type": "video",
+      "aspect_ratio": "16:9",
+      "camera_angles": [
+        "Dynamic Steadicam Tracking",
+        "Macro Lighting Sweep"
+      ],
+      "style_benchmarks": [
+        "Cinematic Photorealism",
+        "Cyberpunk Aesthetic",
+        "Luxury High-Key Commercial"
+      ],
+      "model_preferences": [
+        "Runway Gen-2"
+      ],
+      "commercial_rights": "digital_ad",
+      "budget_min": 40000,
+      "budget_max": 85000,
+      "deadline_days": 7,
+      "key_elements": "Need a 30s photorealistic commercial for a luxury electric hypercar, Tokyo neon rain, 16:9, Runway Gen-2, budget 60000 INR",
+      "raw_transcript": [
+        {
+          "role": "client",
+          "text": "Tokyo hypercar brief"
+        }
+      ],
+      "status": "published",
+      "created_at": "2026-10-10T03:37:05.839Z"
+    },
+    {
+      "id": "brief_1791603322662",
+      "client_id": "user_client_demo",
+      "title": "Need a 30s photorealistic commercial...",
+      "content_type": "video",
+      "aspect_ratio": "16:9",
+      "camera_angles": [
+        "Dynamic Steadicam Tracking",
+        "Macro Lighting Sweep"
+      ],
+      "style_benchmarks": [
+        "Cinematic Photorealism",
+        "Cyberpunk Aesthetic",
+        "Luxury High-Key Commercial"
+      ],
+      "model_preferences": [
+        "Runway Gen-2"
+      ],
+      "commercial_rights": "digital_ad",
+      "budget_min": 40000,
+      "budget_max": 85000,
+      "deadline_days": 7,
+      "key_elements": "Need a 30s photorealistic commercial for a luxury electric hypercar, Tokyo neon rain, 16:9, Runway Gen-2, budget 60000 INR",
+      "raw_transcript": [
+        {
+          "role": "client",
+          "text": "Tokyo hypercar brief"
+        }
+      ],
+      "status": "published",
+      "created_at": "2026-10-10T03:35:22.662Z"
+    }
+  ],
+  "virtual_contracts": [
+    {
+      "id": "cnt_1791603425848",
+      "brief_id": "brief_1791603425839",
+      "client_id": "user_client_demo",
+      "creator_id": "user_creator_arjun",
+      "terms": {
+        "deliverables": [
+          "1x 30s Master 4K Video Commercial",
+          "3x High-Res Still Keyframes"
+        ],
+        "resolution": "4K UHD",
+        "aspect_ratio": "16:9 Landscape",
+        "max_revisions": 2,
+        "deadline": "7 Days",
+        "licensing_rights": "Perpetual Commercial Advertising",
+        "agreed_amount": 60000,
+        "escrow_milestones": [
+          {
+            "name": "Vault Deposit",
+            "percent": 100
+          }
+        ]
+      },
+      "client_signed": true,
+      "creator_signed": true,
+      "contract_checksum": "8a65629ac363bc78ca63ec0d21e2b588bbca5a1578f1c32608f7018a5c7026eb",
+      "status": "completed",
+      "created_at": "2026-10-10T03:37:05.848Z",
+      "client_signed_at": "2026-10-10T03:37:05.857Z",
+      "creator_signed_at": "2026-10-10T03:37:05.865Z"
+    },
+    {
+      "id": "cnt_1791603322677",
+      "brief_id": "brief_1791603322662",
+      "client_id": "user_client_demo",
+      "creator_id": "user_creator_arjun",
+      "terms": {
+        "deliverables": [
+          "1x 30s Master 4K Video Commercial",
+          "3x High-Res Still Keyframes"
+        ],
+        "resolution": "4K UHD",
+        "aspect_ratio": "16:9 Landscape",
+        "max_revisions": 2,
+        "deadline": "7 Days",
+        "licensing_rights": "Perpetual Commercial Advertising",
+        "agreed_amount": 60000,
+        "escrow_milestones": [
+          {
+            "name": "Vault Deposit",
+            "percent": 100
+          }
+        ]
+      },
+      "client_signed": true,
+      "creator_signed": true,
+      "contract_checksum": "085b168b4d6f34a5cd26301a2d8a459d1ee0d780e38467e80e472887e2c9fa67",
+      "status": "in_progress",
+      "created_at": "2026-10-10T03:35:22.677Z",
+      "client_signed_at": "2026-10-10T03:35:22.691Z",
+      "creator_signed_at": "2026-10-10T03:35:22.701Z"
+    }
+  ],
+  "escrow_transactions": [
+    {
+      "id": "esc_1791603426187",
+      "contract_id": "cnt_1791603425848",
+      "client_id": "user_client_demo",
+      "creator_id": "user_creator_arjun",
+      "amount": 60000,
+      "currency": "INR",
+      "razorpay_order_id": "order_5075109813d89a28",
+      "status": "partial_refund",
+      "created_at": "2026-10-10T03:37:06.187Z",
+      "razorpay_payment_id": "pay_order_5075109813d89a28",
+      "released_at": "2026-10-10T03:37:06.907Z"
+    },
+    {
+      "id": "esc_1791603322913",
+      "contract_id": "cnt_1791603322677",
+      "client_id": "user_client_demo",
+      "creator_id": "user_creator_arjun",
+      "amount": 60000,
+      "currency": "INR",
+      "razorpay_order_id": "order_7f5c646634c5f60b",
+      "status": "held_in_escrow",
+      "created_at": "2026-10-10T03:35:22.913Z",
+      "razorpay_payment_id": "pay_order_7f5c646634c5f60b"
+    }
+  ],
+  "sample_renders": [
+    {
+      "id": "smp_1791603426238",
+      "contract_id": "cnt_1791603425848",
+      "creator_id": "user_creator_arjun",
+      "original_url": "/uploads/raw_render_1791603426238.png",
+      "watermarked_url": "/uploads/watermarked_raw_render_1791603426238_1791603426243.png",
+      "synthid_payload": {
+        "platform": "CREAM",
+        "synthid_version": "1.0-alpha",
+        "creator_name": "Arjun Mehta",
+        "creator_id": "user_creator_arjun",
+        "contract_id": "cnt_1791603425848",
+        "asset_sha256": "be4646fb22df5c5e23a5e69d91aa5ee416cb86e1fd787d5820df1d15005d83a8",
+        "timestamp_unix": 1791603426,
+        "status": "SAMPLE_WATERMARKED_ESCROW_GATE"
+      },
+      "status": "pre_approved",
+      "revision_number": 1,
+      "submitted_at": "2026-10-10T03:37:06.612Z",
+      "client_feedback": "Lighting and vehicle motion pre-approved."
+    }
+  ],
+  "dispute_cases": [
+    {
+      "id": "dsp_1791603426889",
+      "contract_id": "cnt_1791603425848",
+      "raised_by": "user_client_demo",
+      "reason": "Test dispute audit check on camera grading consistency",
+      "ai_analysis": {
+        "transcript_summary": "Reviewed 2 negotiation messages, contract terms (#2 deliverables), and feedback log.",
+        "sample_compliance_score": 94,
+        "recommendation": "Evidence Audit: Client explicitly approved the watermarked sample preview. Under CREAM ADR-05 (Weakly Defensible Rejections), client cannot arbitrarily reject final unwatermarked assets matching approved preview specs.",
+        "suggested_split": {
+          "creator_percent": 90,
+          "client_percent": 10
+        }
+      },
+      "resolution_status": "resolved",
+      "created_at": "2026-10-10T03:37:06.889Z",
+      "final_settlement": {
+        "action": "split",
+        "creator_amount": 30000,
+        "client_amount": 30000,
+        "resolved_by": "Trust & Safety Council",
+        "timestamp": "2026-10-10T03:37:06.905Z"
+      },
+      "resolved_at": "2026-10-10T03:37:06.905Z"
+    }
+  ],
+  "negotiation_messages": [
+    {
+      "id": "msg_1791603322713",
+      "contract_id": "cnt_1791603322677",
+      "sender_id": "user_creator_arjun",
+      "sender_role": "creator",
+      "message": "I will train a custom LoRA on your vehicle blueprints for exact temporal consistency.",
+      "is_ai_witness": false,
+      "created_at": "2026-10-10T03:35:22.714Z"
+    },
+    {
+      "id": "msg_ai_1791603322719",
+      "contract_id": "cnt_1791603322677",
+      "sender_id": "ai_witness_agent",
+      "sender_role": "ai_witness",
+      "message": "AI Witness Note: Creator is mentioning LoRA (Low-Rank Adaptation). This means custom style or character likeness will be specifically trained for the client brand.",
+      "is_ai_witness": true,
+      "ai_witness_note": "AI Witness Note: Creator is mentioning LoRA (Low-Rank Adaptation). This means custom style or character likeness will be specifically trained for the client brand.",
+      "created_at": "2026-10-10T03:35:22.719Z"
+    },
+    {
+      "id": "msg_1791603425873",
+      "contract_id": "cnt_1791603425848",
+      "sender_id": "user_creator_arjun",
+      "sender_role": "creator",
+      "message": "I will train a custom LoRA on your vehicle blueprints for exact temporal consistency.",
+      "is_ai_witness": false,
+      "created_at": "2026-10-10T03:37:05.873Z"
+    },
+    {
+      "id": "msg_ai_1791603425877",
+      "contract_id": "cnt_1791603425848",
+      "sender_id": "ai_witness_agent",
+      "sender_role": "ai_witness",
+      "message": "AI Witness Note: Creator is mentioning LoRA (Low-Rank Adaptation). This means custom style or character likeness will be specifically trained for the client brand.",
+      "is_ai_witness": true,
+      "ai_witness_note": "AI Witness Note: Creator is mentioning LoRA (Low-Rank Adaptation). This means custom style or character likeness will be specifically trained for the client brand.",
+      "created_at": "2026-10-10T03:37:05.877Z"
+    }
+  ]
+}
